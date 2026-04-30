@@ -3,7 +3,6 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
 import { MarcasModule } from './marcas/marcas.module';
-
 @Module({
   imports: [
     ConfigModule.forRoot({

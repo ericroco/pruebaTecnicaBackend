@@ -5,7 +5,6 @@ import { MarcasController } from './marcas.controller';
 import { Marca } from './marca.entity';
 import { Descuento } from './descuento.entity';
 import { AuthModule } from '../auth/auth.module';
-
 @Module({
   imports: [
     TypeOrmModule.forFeature([Marca, Descuento]),
